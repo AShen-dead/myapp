@@ -110,7 +110,7 @@
       <div class="card-body">
         <h5 class="card-title">Jake Ashley Y. Ballenas/h5>
         <p class="card-text">Click below to view my biography.</p>
-        <a href="{{ route('biography.Jake') }}" class="btn btn-custom">View</a>
+        <a href="{{ route('biography.jake') }}" class="btn btn-custom">View</a>
       </div>
     </div> 
 
@@ -118,5 +118,6 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.
+
 
 
