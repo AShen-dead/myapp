@@ -11,3 +11,6 @@ Route::get('/biography/jacen', function () {
     return view('biography.jacen');
 })->name('biography.jacen');
 
+Route::get('/biography/moonie', function () {
+    return view('biography.moonie');
+})->name('biography.moonie');
