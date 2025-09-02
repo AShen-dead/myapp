@@ -18,3 +18,7 @@ Route::get('/biography/moonie', function () {
 Route::get('/biography/jake', function () {
     return view('biography.jake');
 })->name('biography.jake');
+
+Route::get('/biography/joross', function () {
+    return view('biography.joross');
+})->name('biography.joross');

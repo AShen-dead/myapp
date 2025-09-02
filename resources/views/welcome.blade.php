@@ -114,10 +114,19 @@
       </div>
     </div> 
 
+    <div class="card">
+      <img src="{{ asset('pictures/joross.jpg') }}" alt="jrss">
+      <div class="card-body">
+        <h5 class="card-title">Joross L. Manzano</h5>
+        <p class="card-text">Click below to view my biography.</p>
+        <a href="{{ route('biography.joross') }}" class="btn btn-custom">View</a>
+      </div>
+    </div> 
 
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.
+
 
 
 
