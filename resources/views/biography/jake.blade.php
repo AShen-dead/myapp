@@ -1,7 +1,7 @@
-<x-layout title="Jacen Luke A. Cielos Biography">
+<x-layout title="Jake Ashley Ballenas Biography">
     <div class="profile-card">
         <div class="banner">
-            <div class="avatar" style="background-image: url('{{ asset('pictures/jacen.jpg') }}');"></div>
+            <div class="avatar" style="background-image: url('{{ asset('pictures/jake.jpg') }}');"></div>
         </div>
         <div class="content">
             <h2>Jake Ashley Y. Ballenas</h2>
