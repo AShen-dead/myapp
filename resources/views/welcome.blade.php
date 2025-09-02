@@ -97,7 +97,7 @@
     </div>
 
    <div class="card">
-      <img src="{{ asset('pictures/moonie.jpg') }}" alt="Jacen">
+      <img src="{{ asset('pictures/moonie.jpg') }}" alt="moonie">
       <div class="card-body">
         <h5 class="card-title">Moonie Rey L. Leonen</h5>
         <p class="card-text">Click below to view my biography.</p>
