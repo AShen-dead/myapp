@@ -1,4 +1,4 @@
-<x-layout title="Jacen Luke A. Cielos Biography">
+<x-layout title="Moonie Rey L. Leonen Biography">
     <div class="profile-card">
         <div class="banner">
             <div class="avatar" style="background-image: url('{{ asset('pictures/moonie.jpg') }}');"></div>
