@@ -97,7 +97,7 @@
     </div>
 
    <div class="card">
-      <img src="{{ asset('pictures/mooniejpg') }}" alt="Jacen">
+      <img src="{{ asset('pictures/moonie.jpg') }}" alt="moonie">
       <div class="card-body">
         <h5 class="card-title">Moonie Rey L. Leonen</h5>
         <p class="card-text">Click below to view my biography.</p>
@@ -110,4 +110,5 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.
+
 
