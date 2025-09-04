@@ -10,7 +10,7 @@
 
     <style>
         body {
-            background-color: #f5f5dc; /* Beige background */
+            background-color: #f5f5dc; 
             font-family: Arial, sans-serif;
             color: #2c2c2c;
             margin: 0;
@@ -24,6 +24,46 @@
             flex: 1;
         }
 
+        
+        header {
+            background: #5a4634;
+            color: #f5f5dc;
+            padding: 12px 90px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header .logo img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 50%;
+            background: #fffaf0;
+            border: 2px solid #d2b48c;
+        }
+
+        header nav a {
+            color: #f5f5dc;
+            text-decoration: none;
+            font-size: 16px;
+            margin-left: 20px;
+            padding: 6px 10px;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+
+        header nav a:hover {
+            background-color: #8b6f47;
+        }
+
+        
         footer {
             background: #5a4634; 
             color: #f5f5dc; 
@@ -33,6 +73,7 @@
             font-size: 14px;
         }
 
+        
         .profile-card {
             width: 500px;
             margin: 50px auto;
@@ -85,19 +126,89 @@
             border-top: 2px solid #d2b48c; 
             margin: 15px 0;
         }
+
+        
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 30px;
+        }
+
+        .card {
+            background: #fffaf0; 
+            border: 1px solid #d2b48c; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            color: #4a3c2a; 
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+            color: #6e5b43; 
+            margin-bottom: 15px;
+        }
+
+        .btn-custom {
+            background: #c3a373; 
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 18px;
+            font-weight: 500;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .btn-custom:hover {
+            background: #8b7355; 
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
+
+    <header>
+        <div class="logo">
+            <img src="{{ asset('pictures/ispsc.jpg') }}" alt="Logo">
+            
+        </div>
+        <nav>
+            <a href="{{ route('home') }}">Home</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contacts</a>
+            
+        </nav>
+    </header>
 
     <div class="main-content">
         {{ $slot }}
     </div>
 
     <footer>
-        <p> 2025 Our Biography Project | Designed with in Laravel</p>
+        <p>2025 Our Biography Project | Designed in Laravel</p>
     </footer>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

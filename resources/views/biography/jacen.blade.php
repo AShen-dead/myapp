@@ -15,7 +15,7 @@
             <ul>
                 <li>Cycling</li>
                 <li>Gaming</li>
-                <li>Reading 18+ manwha</li>
+                <li>Reading 18+ manhwa</li>
             </ul>
         </div>
     </div>
