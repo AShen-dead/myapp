@@ -194,9 +194,9 @@
             
         </div>
         <nav>
-            <a href="<?php echo e(route('home')); ?>">Home</a>
-            <a href="#">Gallery</a>
-            <a href="#">Contacts</a>
+            <a href="<?php echo e(route('home')); ?>">HOME</a>
+            <a href="<?php echo e(route('biographies')); ?>">BIOGRAPHIES</a>
+            <a href="#">CONTACTS</a>
             
         </nav>
     </header>

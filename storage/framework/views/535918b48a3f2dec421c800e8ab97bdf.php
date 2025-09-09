@@ -138,9 +138,9 @@
       
     </div>
     <nav>
-      <a href="<?php echo e(route('biographies')); ?>">Biographies</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact</a>
+      <a href="<?php echo e(route('biographies')); ?>">BIOGRAPHIES</a>
+      <a href="<?php echo e(route('cats.index')); ?>">CATS</a>
+      <a href="#">CONTACT</a>
     </nav>
   </header>
 

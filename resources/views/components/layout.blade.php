@@ -194,9 +194,9 @@
             
         </div>
         <nav>
-            <a href="{{ route('home') }}">Home</a>
-            <a href="#">Gallery</a>
-            <a href="#">Contacts</a>
+            <a href="{{ route('home') }}">HOME</a>
+            <a href="{{ route('biographies') }}">BIOGRAPHIES</a>
+            <a href="#">CONTACTS</a>
             
         </nav>
     </header>

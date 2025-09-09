@@ -8,7 +8,7 @@
 <?php $attributes = $attributes->except(\Illuminate\View\AnonymousComponent::ignoredParameterNames()); ?>
 <?php endif; ?>
 <?php $component->withAttributes(['title' => 'Our Autobiographies']); ?>
-    
+
 
     <div class="card-container">
         <div class="card">
@@ -20,6 +20,7 @@
             </div>
         </div>
 
+
         <div class="card">
             <img src="<?php echo e(asset('pictures/moonie.jpg')); ?>" alt="moonie">
             <div class="card-body">
@@ -28,6 +29,7 @@
                 <a href="<?php echo e(route('biography.moonie')); ?>" class="btn btn-custom">View</a>
             </div>
         </div> 
+
 
         <div class="card">
             <img src="<?php echo e(asset('pictures/Jake.jpg')); ?>" alt="Jake">
@@ -38,6 +40,7 @@
             </div>
         </div> 
 
+        
         <div class="card">
             <img src="<?php echo e(asset('pictures/joross.jpg')); ?>" alt="jrss">
             <div class="card-body">

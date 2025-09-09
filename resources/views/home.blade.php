@@ -138,9 +138,9 @@
       
     </div>
     <nav>
-      <a href="{{ route('biographies') }}">Biographies</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact</a>
+      <a href="{{ route('biographies') }}">BIOGRAPHIES</a>
+      <a href="{{ route('cats.index') }}">CATS</a>
+      <a href="#">CONTACT</a>
     </nav>
   </header>
 
