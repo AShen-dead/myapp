@@ -3,7 +3,7 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="{{ asset('pictures/jacen.jpg') }}" alt="Jacen">
+            <img src="{{ asset('pictures/jace.jpg') }}" alt="Jacen">
             <div class="card-body">
                 <h5 class="card-title">Jacen Luke A. Cielos</h5>
                 <p class="card-text">Click below to view my biography.</p>

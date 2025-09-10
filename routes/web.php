@@ -37,4 +37,5 @@ Route::get('biographies', function () {
 
 use App\Http\Controllers\CatController;
 
-Route::get('/cats', [CatController::class, 'index'])->name('cats.index');
+Route::resource('cats', CatController::class);
+Route::get('cats', [CatController::class, 'index'])->name('cats.index');
