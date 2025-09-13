@@ -184,6 +184,24 @@
             background: #8b7355; 
             transform: scale(1.05);
         }
+
+        .btn-edit {
+             background: #8b6f47;   /* earthy brown-green */
+             color: #fff;
+             border: none;
+             border-radius: 8px;
+             padding: 6px 14px;
+             font-weight: 500;
+             transition: background 0.3s, transform 0.2s;
+        }
+
+        .btn-edit:hover {
+            background: #5a4634;   /* darker shade */
+            transform: scale(1.05);
+        }
+        
+
+
     </style>
 </head>
 <body>

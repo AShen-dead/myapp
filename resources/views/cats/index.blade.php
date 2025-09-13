@@ -1,6 +1,6 @@
 <x-layout>
 <div class="container mt-5">
-    <h1 class="text-center mb-4">🐱 Cats CRUD</h1>
+    <h1 class="text-center mb-4">🐱</h1>
     
     <a href="{{ route('cats.create') }}" class="btn btn-success mb-3">+ Add New Cat</a>
 
@@ -28,7 +28,8 @@
                     <td>{{ $cat->age }}</td>
                     <td>{{ $cat->color }}</td>
                     <td>
-                        <a href="{{ route('cats.edit', $cat->id) }}" class="btn btn-warning btn-sm">Edit</a>
+
+                        <a href="{{ route('cats.edit', $cat->id) }}" class="btn-edit">Edit</a>
                         <form action="{{ route('cats.destroy', $cat->id) }}" method="POST" style="display:inline;">
                             @csrf
                             @method('DELETE')

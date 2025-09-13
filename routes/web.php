@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CatController;
 
 Route::get('/', function () {
     return view('home');
@@ -35,7 +36,6 @@ Route::get('biographies', function () {
     return view('biographies');
 })->name('biographies');
 
-use App\Http\Controllers\CatController;
 
 Route::resource('cats', CatController::class);
 Route::get('cats', [CatController::class, 'index'])->name('cats.index');

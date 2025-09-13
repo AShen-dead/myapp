@@ -9,7 +9,7 @@
 <?php endif; ?>
 <?php $component->withAttributes([]); ?>
 <div class="container mt-5">
-    <h1 class="text-center mb-4">🐱 Cats CRUD</h1>
+    <h1 class="text-center mb-4">🐱</h1>
     
     <a href="<?php echo e(route('cats.create')); ?>" class="btn btn-success mb-3">+ Add New Cat</a>
 
@@ -37,7 +37,8 @@
                     <td><?php echo e($cat->age); ?></td>
                     <td><?php echo e($cat->color); ?></td>
                     <td>
-                        <a href="<?php echo e(route('cats.edit', $cat->id)); ?>" class="btn btn-warning btn-sm">Edit</a>
+
+                        <a href="<?php echo e(route('cats.edit', $cat->id)); ?>" class="btn-edit">Edit</a>
                         <form action="<?php echo e(route('cats.destroy', $cat->id)); ?>" method="POST" style="display:inline;">
                             <?php echo csrf_field(); ?>
                             <?php echo method_field('DELETE'); ?>
